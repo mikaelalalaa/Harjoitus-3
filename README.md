@@ -119,8 +119,36 @@ git reset --hard
 Tämän jälkeen katsoin taas statuksen ja huomasin että tiedostot olivat poistunut.
 
 ![image](https://user-images.githubusercontent.com/93308960/142031902-bfe50743-5d82-44d2-b4a7-bbf9a30c93db.png)
-cd
-
 
 
 ## d) Formula
+
+Loin tein uuden hakemiston komennolla
+
+```
+sudo mkdir -p /srv/salt/fromula
+```
+
+Loin sinne uuden tiedoston `nano init.sls`.
+
+Laitoin sinne koodiski alla olevan tekstin
+```
+test:
+  pkg.installed:
+      - name: vim
+  file.managed:
+      - name: /srv/salt/fromula/testi_tt.txt
+```
+Ajoin komennon 
+```
+sudo salt '*' state.apply fromula
+```
+
+Kuvasta näkyy että tiedoston luominen onnistui ja että vim oli jo asennettu.
+
+![image](https://user-images.githubusercontent.com/93308960/142057954-be8fe3f0-80d8-400a-8cea-b240204c78de.png)
+
+`ls -la` komennolla näkyy että tiedosto luotiin
+
+![image](https://user-images.githubusercontent.com/93308960/142058105-a136fb3c-5f49-4f4e-b357-4118de75e1a8.png)
+
