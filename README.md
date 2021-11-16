@@ -22,10 +22,10 @@ Tämä harjoitus on tehty markdown tyypillä.
 
 ## b) Pull first
 
-Kloonasin harjoitukseni git-varastoon komennolla 
+Kloonasin harjoitukseni ssh avulla git-varastoon komennolla 
 
 ```
-git clone 
+git clone git@github.com:mikaelalalaa/Harjoitus-3.git
 ```
 
 Harjoitusta varen tein kaksi uutta tiedostoa komennolla `mkdir` :
