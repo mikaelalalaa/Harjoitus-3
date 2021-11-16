@@ -166,3 +166,5 @@ Kuvasta näkyy että tiedoston luominen onnistui ja että vim oli jo asennettu.
 
 ![image](https://user-images.githubusercontent.com/93308960/142058105-a136fb3c-5f49-4f4e-b357-4118de75e1a8.png)
 
+## lähteet
+https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-2021-autumn/
