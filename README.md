@@ -47,6 +47,9 @@ Tämän jälkeen vielä työn sin sen githubiin, komennolla `git push`
 
 ![image](https://user-images.githubusercontent.com/93308960/142052440-7c5323c5-6daf-435a-958d-9597ec8ce493.png)
 
+Tulokset työnnettiin onnistuneestin sivulle
+
+![image](https://user-images.githubusercontent.com/93308960/142053058-0092f85f-ccf7-4ff1-b0ca-0ccc27a71844.png)
 
 
 ## b) Kaikki karjataan
