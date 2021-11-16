@@ -14,27 +14,39 @@ Tehtävät löytyvät opettajamme [Tero Karvisen sivulta](https://terokarvinen.c
 
 ## b) Pull first
 
-Harjoitusta varen tein kolme uutta tiedostoa komennolla `nano` :
+Harjoitusta varen tein kaksi uutta tiedostoa komennolla `mkdir` :
 
-  * iloweu.txt
-  * bunny.txt
-  * foo.txt
+  * testdirec
+  * toinentesti
+
+Luomisen jälkeen ajoin komennon 
+
+```
+sudo touch testdirec/.gitkeep
+sudo touch toinentesti/.gitkeep
+```
+
+![image](https://user-images.githubusercontent.com/93308960/142051509-205c0f0d-16f3-4000-9409-fc5cc980a902.png)
  
-Sitten tallensin luodut teidostot git-varastooni komennolla 
+Luomisien jälkeen tallensin vasta tehdyt tiedostot komennolla 
 ```
-git add iloweu.txt bunny.txt foo.txt
+git add -A
 ```
-![image](https://user-images.githubusercontent.com/93308960/142022361-dddcb200-444e-47e4-8c6c-6b826af4e483.png)
+Sitten katsoin statuksen komennolla `git status`, jossa näkyi että tiedostot pitää vielä committaa.
+
+![image](https://user-images.githubusercontent.com/93308960/142051925-085ca9b4-2d07-46e3-814a-9917588bc8f6.png)
 
 
-Tallennuksen jälkeen tein commit message jossa oli viestinä "Add top level menu to Foobar synchronizer"
+Tallennuksen jälkeen tein commit message jossa oli viestinä "created from git"
 Komento oli:
 ```
- git commit -m "Add top level menu to Foobar synchronizer"
+ git commit -m "created from fit"
 ```
-Lopputlos oli tämän näköinen 
 
-![image](https://user-images.githubusercontent.com/93308960/142022300-3f5fb920-c210-4a85-b0b1-388d886626d0.png)
+Tämän jälkeen vielä työn sin sen githubiin, komennolla `git push`
+
+![image](https://user-images.githubusercontent.com/93308960/142052440-7c5323c5-6daf-435a-958d-9597ec8ce493.png)
+
 
 
 ## b) Kaikki karjataan
