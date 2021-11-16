@@ -44,14 +44,10 @@ Harjoituksessa aja komennot `git log, git diff ja git blame ` ja lopuksi selitä
 #### git log
 Alhaalta kuvassa näkyy kaikki muutokset joita ollaa tehty kyseisessä git-varastossa.
 
-Ihan ensimmäisessä kohdassa 'commit' on id numero.
-
-'Author' kohdassa näkyy tekijän nimi ja s-posti osoite
-
-'Date' kohdassa näkyy aika ja päivämäärä milloin muutokset ovat tehty
-
-viimeisessä kohdassa näkyy viesti, joka on jätetty kun `commit` komento on tehty.
-
+* Ihan ensimmäisessä kohdassa 'commit' on id numero.
+* 'Author' kohdassa näkyy tekijän nimi ja s-posti osoite
+* 'Date' kohdassa näkyy aika ja päivämäärä milloin muutokset ovat tehty
+* viimeisessä kohdassa näkyy viesti, joka on jätetty kun `commit` komento on tehty.
 
 ![image](https://user-images.githubusercontent.com/93308960/142026022-34e2f798-cc34-4e72-8d61-088c258cdc5d.png)
 
@@ -77,15 +73,11 @@ Alhaalla olevassa kuvassa näkyy mitä muutoksia tuli voimaan. Tiedoston nimi ja
 
 Git blame komennolla näkyy yksittäisen tiedoston  muutokset mitä sille ollaa tehty.
 
-Ensimmäisessä kohdassa näkyy id numero.
-
-Toisessa kohdassa näkyy tekijän nimi.
-
-Kolmannessa kohdassa näkyy päivämäärä ja sen jälkeen tulee aika.
-
-Ihan viimeisenä sulkuje sisällä on rivinumero.
-
-Sulkujen ulkopuolella lopussa näkyy mitä tiedosto sisältää.
+* Ensimmäisessä kohdassa näkyy id numero.
+* Toisessa kohdassa näkyy tekijän nimi.
+* Kolmannessa kohdassa näkyy päivämäärä ja sen jälkeen tulee aika.
+* Ihan viimeisenä sulkuje sisällä on rivinumero.
+* Sulkujen ulkopuolella lopussa näkyy mitä tiedosto sisältää.
 
 ![image](https://user-images.githubusercontent.com/93308960/142024976-fd3d5151-afa6-42b8-89ec-34c9f304efa0.png)
 
