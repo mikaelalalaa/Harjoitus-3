@@ -44,6 +44,7 @@ Harjoituksessa aja komennot `git log, git diff ja git blame ` ja lopuksi selitä
 #### git log
 
 
+
 ![image](https://user-images.githubusercontent.com/93308960/142026022-34e2f798-cc34-4e72-8d61-088c258cdc5d.png)
 
 
