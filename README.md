@@ -1,18 +1,32 @@
 # Harjoitus-3
 
+Tässä harjoituksessa tehdään MarkDown kirjoitusta, git ohjelman perus komentoja/toimintaa. Myös vielä vähän infrakoodia ja sisältää tiivistelmän.
+
 Tehtävät löytyvät opettajamme [Tero Karvisen sivulta](https://terokarvinen.com/2021/configuration-management-systems-palvelinten-hallinta-ict4tn022-2021-autumn/#h3-versionhallinta)
 
 ## Tiivistelmä
 
 [Markdown reference](https://commonmark.org/help/)
 
+* Linkin saa toteutettua `[nimi](url)`
+* otsikko 1 saa `# otsikko`
+* otsikko 2 saa `## otsikko`
+* Koodi kuution saa näillä ` `` `
+* quote kuution saa `> suuruus merkillä`
 
 
 ## a) MarkDown
 
+Tämä harjoitus on tehty markdown tyypillä.
 
 
 ## b) Pull first
+
+Kloonasin harjoitukseni git-varastoon komennolla 
+
+```
+git clone 
+```
 
 Harjoitusta varen tein kaksi uutta tiedostoa komennolla `mkdir` :
 
